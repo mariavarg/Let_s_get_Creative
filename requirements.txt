@@ -1,1 +1,8 @@
-MarkupSafe, itsdangerous, colorama, blinker, Werkzeug, Jinja2, click, Flask
+MarkupSafe
+itsdangerous
+colorama
+blinker
+Werkzeug
+Jinja2
+click
+Flask
