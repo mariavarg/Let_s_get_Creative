@@ -8,8 +8,9 @@ def process_image(image_file):
     draw = ImageDraw.Draw(image)
 
     # Choose a font and font size
-    font = ImageFont.truetype('
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia', 36)
+    font_path = '/path/to/font.ttf'  # Replace with the actual path to your font file
+    font_size = 36
+    font = ImageFont.truetype(font_path, font_size)
 
     # Get the size of the text
     text = 'My Poster'
@@ -26,7 +27,5 @@ def process_image(image_file):
     draw.text((x, y), text, font=font, fill=color)
 
     # Save the image
-    output_image_path = '/workspaces/75952007/Flask/static/images/poster.png'
+    output_image_path = '/path/to/output_image.png'  # Replace with the desired output image path
     image.save(output_image_path)
-
-    return output_image_path
