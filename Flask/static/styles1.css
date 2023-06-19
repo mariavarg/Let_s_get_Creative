@@ -2,7 +2,7 @@ body, html {
     height:100%;
   }
 
-  div {
+  head, div {
     max-width: 500px;
     margin: 10.5px;
     text-align:center;
@@ -31,7 +31,22 @@ body, html {
     border-radius: 10px;
   }
 
-   .content {
+  .bg {
+    /* The image used */
+    background-image: url("Flask/static/images/Desdemona by mariavarg.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Align and scale the image nicely */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+
+  }
+
+  .content {
     max-width: 500px;
     margin: auto;
   }
